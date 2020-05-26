@@ -1,0 +1,30 @@
+@font-face{
+  font-family:"SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src:  url("SEGA.TTF")
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT" ;
+  font-weight: 200;
+  color: #0ccac4;
+}
+
+
+.innerScroll::-webkit-scrollbar {
+  border-radius: 10px;
+  background-color: rgba(7,27,82,1) ;
+  width: 5px;
+}
+
+.innerScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(232, 232, 232, 0.3);
+  width: 5px;
+  box-shadow: black;
+}
+
+.innerScroll {
+  
+}
